@@ -1,0 +1,9 @@
+rslidar1_topic: "/rslidar_points1"
+rslidar2_topic: "/rslidar_points2"
+
+extrinsic: [0.114, 0.019, -0.196, -0.010, -0.026, 0.008]
+
+filter_x_min : 0.0
+
+filter_topic: "/filter_cloud"
+concat_topic: "/concat_cloud"
